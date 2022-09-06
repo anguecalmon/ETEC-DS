@@ -1,0 +1,74 @@
+.container {
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100%;
+
+    background-color: #212121;
+}
+
+h2 {
+    font-size: 28px;
+    color: #555555;
+}
+
+.botao1:hover {
+    background-color: #636363;
+    transform: scale(1.05);
+}
+
+.botao1 span {
+    transition: 0.10s;
+}
+
+.botao1:hover span {
+    padding: 5px;
+}  
+
+.botao2:hover {
+    background-color: #636363;
+    transform: scale(1.05);
+}
+
+.botao2 span {
+    transition: 0.10s;
+}
+
+.botao2:hover span {
+    padding: 5px;
+}  
+
+.botao1 {
+    margin-top: 30px;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #555555;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px;
+    transition: all 0.5s;
+}
+
+.botao2 {
+    border: none;
+    color: #ffffff;
+    padding: 15px 103px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #555555;
+    border-radius: 12px;  
+    cursor: pointer;  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px;
+    transition: all 0.5s;
+}

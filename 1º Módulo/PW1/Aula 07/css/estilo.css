@@ -1,0 +1,66 @@
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #adadad;
+    color: #303030;
+    border: 0;
+  }
+
+
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+}
+  
+  input[type=text]:focus {
+    width: 30%;
+}
+
+.formulariozinho {
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+
+    height: 100vh;
+    width: 100%;
+}
+
+#PrimeiroNome {
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+}
+
+#Sobrenome {
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#a976c7, #541975);
+}
+
+p {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
