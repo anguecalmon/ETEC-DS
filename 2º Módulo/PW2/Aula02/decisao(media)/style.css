@@ -1,0 +1,27 @@
+.aprovado {
+    color: #4343ff;
+}
+
+.reprovado {
+    color: #ff3131;
+}
+
+h1 {
+    font-size: 2.5em; 
+}
+
+span {
+    color: #fff;
+}
+
+p {
+    font-size: 1.875em;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    margin-top: 20em;
+    font-family: sans-serif;
+    background-color: #96b9b9;
+}

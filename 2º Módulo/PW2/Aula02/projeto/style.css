@@ -1,0 +1,19 @@
+.nome {
+    color: blue;
+}
+
+.idade {
+    color: red;
+}
+
+.email {
+    color: green;
+}
+
+body { 
+    width: 100%;
+    height: auto;
+    background-color: #dfdfdf;
+    margin: 0px;
+    text-align: center;
+}

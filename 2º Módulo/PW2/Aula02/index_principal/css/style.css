@@ -1,0 +1,22 @@
+body { 
+    width: 100%;
+    height: auto;
+    background-color: #828282;
+    margin: 0px;
+}
+
+.centralizar {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffcc25;
+    font-size: 2.5em;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
