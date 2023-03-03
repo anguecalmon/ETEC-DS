@@ -1,0 +1,19 @@
+https://getcomposer.org/download // instalar o composer
+
+CMD ---> 
+
+cd .. -> volta um diretório
+
+cd \ -> volta para unidade raiz
+
+MKDIR Laravel
+
+composer create-project laravel/laravel nome_do_seu_projeto
+
+Y
+
+cd Projeto
+
+php artisan serve
+
+localhost:8000 -> no navegador
