@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Laboratorio;
 
-class QuemSomos extends Controller
+class LaboratorioController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,13 @@ class QuemSomos extends Controller
      */
     public function index()
     {
-        //
+        $laboratorio = Laboratorio::all();
+
+        foreach($laboratorio as $lab){
+            echo $lab -> idLaboratorio . " ";
+            echo $lab -> laboratorio . "<br />";
+        }
+
     }
 
     /**

@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Reclamacao;
 
-class Reclamacao extends Controller
+class ReclamacaoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,17 @@ class Reclamacao extends Controller
      */
     public function index()
     {
-        //
+        $reclamacao = Reclamacao::all();
+
+        foreach($reclamacao as $rec){
+            echo $rec -> idReclamacao . " = id da reclamação | ";
+            echo $rec -> idLab . " = id do Laboratório | ";
+            echo $rec -> pc . " = Número do PC | <br> Título : ";
+            echo $rec -> titulo . "<br> Descrição:  ";
+            echo $rec -> descricao . " <br> Data da criação | ";
+            echo $rec -> dtCriacao . "";
+        }
+
     }
 
     /**

@@ -15,21 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Contato', function () {
-    return view('Contato');
-});
-
-Route::get('/QuemSomos', function () {
-    return view('QuemSomos');
-});
-
-Route::get('/Principal', function () {
-    return view('Principal');
-});
-
-Route::get('/Reclamacao', function () {
-    return view('Reclamacao');
-});
-
-?>
-
+Route::get('/reclamacao', "ReclamacaoController@index");
