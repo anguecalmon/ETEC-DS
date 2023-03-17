@@ -18,10 +18,38 @@ php artisan serve
 
 localhost:8000 -> no navegador
 
+php artisan config:clear
+
 ----------------------------
 
 composer install
 
 php artisan serve
 
-php artisan config:clear
+abrir o wamp
+
+abrir o banco de dados
+
+
+
+
+
+
+
+criar o banco de dados:
+create database  dbPw3
+create table tbLaboratorio(
+	idLaboratorio int primary key AUTO_INCREMENT,
+    laboratorio varchar(50)
+);
+
+insert into tblaboratorio values
+	(null,'Lab01'),
+    (null,'Lab02'),
+    (null,'Lab03'),
+    (null,'Lab04');  
+
+
+
+INSERT INTO tbReclamacao (idLab, pc, titulo, descricao, dtCriacao) VALUES ('1', 'PC 1', 'Reclamação sobre o PC 1 do Lab01', 'Problemas de perfomance no PC', '06/10;2004');
+
