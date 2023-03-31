@@ -1,0 +1,7 @@
+CREATE TABLE tbContato (
+    idContato INT PRIMARY KEY AUTO_INCREMENT,
+    nome varchar(250),
+    email varchar(250),
+    assunto varchar(250),
+    mensagem varchar(250)
+);
