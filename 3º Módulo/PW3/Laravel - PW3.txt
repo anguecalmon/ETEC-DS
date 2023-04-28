@@ -22,6 +22,8 @@ php artisan config:clear
 
 ----------------------------
 
+rotina:
+
 composer install
 
 php artisan serve
@@ -37,7 +39,9 @@ abrir o banco de dados
 
 
 criar o banco de dados:
-create database  dbPw3
+
+create database  dbPw3;
+
 create table tbLaboratorio(
 	idLaboratorio int primary key AUTO_INCREMENT,
     laboratorio varchar(50)
